@@ -1,4 +1,4 @@
-{
+ {
   "title": "Que tipo de programador você é?",
   "questions": [
     {
@@ -53,9 +53,9 @@
     }
   ],
   "results": {
-    "F": "Você é um <strong>Desenvolvedor Frontend</strong>! Adora criar interfaces bonitas e interativas.",
-    "D": "Você é um <strong>Cientista de Dados/Desenvolvedor Backend</strong>! Seu foco está em lógica e análise de dados.",
-    "B": "Você é um <strong>Desenvolvedor Full Stack</strong>! Equilibra frontend e backend para criar sistemas completos.",
-    "L": "Você é um <strong>Programador de Baixo Nível</strong>! Gosta de trabalhar com otimização, hardware e sistemas complexos."
+    "F": "Você é uma pessoa <strong>Desenvolvedora Frontend</strong>! Adora criar interfaces bonitas e interativas.",
+    "D": "Você é uma pessoa <strong>Cientista de Dados/Desenvolvedora Backend</strong>! Seu foco está em lógica e análise de dados.",
+    "B": "Você é uma pessoa <strong>Desenvolvedora Full Stack</strong>! Equilibra frontend e backend para criar sistemas completos.",
+    "L": "Você é uma pessoa <strong>Programadora de Baixo Nível</strong>! Gosta de trabalhar com otimização, hardware e sistemas complexos."
   }
 }
