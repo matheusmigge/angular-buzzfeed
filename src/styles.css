@@ -5,10 +5,10 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  color: rgb(255, 255, 255);
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
 }
 
 body {
-  background-color: #1f1147;
+  background-color: #ffffff;
 }

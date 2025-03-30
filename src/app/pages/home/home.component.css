@@ -1,6 +1,7 @@
 app-quizz {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    height: 100vh;
+    margin-top: 20px;
 }
