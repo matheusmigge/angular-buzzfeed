@@ -2,7 +2,7 @@
 Este é um pequeno clone dos quizzes do BuzzFeed, feito como parte do Bootcamp Dio Decola Tech 2025. Este projeto foi gerado usando [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4. 
 
 ## A aplicação apresenta: 
-- **Quizz interativo**: Perguntas de múltipla escolha com respostas que determinam um perfil final para o usuário.
+- **Quiz interativo**: Perguntas de múltipla escolha com respostas que determinam um perfil final para o usuário.
 - **Respostas dinâmicas**: As respostas são calculadas e mostradas no final, com base nas opções selecionadas.
 - **Design responsivo**: A interface se ajusta a diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis. 
 
