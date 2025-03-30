@@ -114,7 +114,8 @@
   }
 
   .btn-option:hover {
-    background-color: none;
+    background-color: inherit;
+    color: inherit;
   }
 
   .quizz_results {
