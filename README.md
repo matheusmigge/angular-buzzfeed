@@ -1,59 +1,47 @@
-# AngularBuzzfeed
+# Projeto para o Bootcamp Dio Decola Tech 2025 - Clone do BuzzFeed
+Este é um pequeno clone dos quizzes do BuzzFeed, feito como parte do Bootcamp Dio Decola Tech 2025. Este projeto foi gerado usando [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4. 
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+## A aplicação apresenta: 
+- **Quizz interativo**: Perguntas de múltipla escolha com respostas que determinam um perfil final para o usuário.
+- **Respostas dinâmicas**: As respostas são calculadas e mostradas no final, com base nas opções selecionadas.
+- **Design responsivo**: A interface se ajusta a diferentes tamanhos de tela, proporcionando uma boa experiência em dispositivos móveis. 
 
-## Development server
+## Principais Tecnologias
+- **Angular**: Framework moderno para desenvolvimento de aplicações web dinâmicas.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática e melhora a manutenção do código.
+- **CSS**: Utilizado para estilização da interface.
+- **Vercel**: Plataforma de hospedagem onde o projeto está disponível online.
 
-To start a local development server, run:
+## Referências de Design e fontes
+- **BuzzFeed**: Layout, Logo e Favicon inspirados no [site oficial](https://www.buzzfeed.com/quizzes).
+- **Coolors**: Estudo de cores realizado através deste [gerador de paletas de cores](https://coolors.co/image-picker).
+
+## Acesso ao Deploy
+
+O projeto está disponível online através do Vercel:
+
+🔗 [Acesse aqui](https://angular-buzzfeed-dio.vercel.app/)
+
+## Servidor de desenvolvimento
+
+Para iniciar um servidor de desenvolvimento local, rode:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
+Uma vez que o servidor estiver funcionando, abra seu browser e navegue para `http://localhost:4200/`. A aplicação vai automaticamente recarregar quando você modificar qualquer um dos arquivos fonte.
 
 ## Building
 
-To build the project run:
+Para buildar o projeto, rode:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Isso vai compilar seu projeto e guardar os artefatos buildados em seu diretório `dist/`. Por padrão, o build de produção otimiza a performace e velocidade da aplicação.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
+## Recursos Adicionais do Angular
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
