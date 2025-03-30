@@ -1,55 +1,61 @@
 {
-    "title":"Você seria um heroi ou vilão ?",
-    "questions":[
-      {
-        "id":1,
-        "question": "Qual super poder você escolheria ?",
-        "options":[
-          {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-          {"id": 2, "name":"Voar", "alias":"B"},
-          {"id": 3, "name":"Explodir coisas", "alias":"A"},
-          {"id": 4, "name":"Curar feridas", "alias":"B"},
-          {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
-        ]
-      },
-      {
-        "id":2,
-        "question": "Quem você salvaria primeiro ?",
-        "options":[
-          {"id": 1, "name":"Crianças", "alias":"A"},
-          {"id": 2, "name":"Idosos", "alias":"A"},
-          {"id": 3, "name":"Não saberia escolher", "alias":"B"}
-        ]
-      },
-      {
-        "id":3,
-        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-        "options":[
-          {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-          {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-          {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-          {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
-        ]
-      },
-      {
-        "id":4,
-        "question": "Qual o seu maior foco ?",
-        "options":[
-          {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-          {"id": 2, "name":"Salvar a cidade", "alias":"B"}
-        ]
-      },
-      {
-        "id":5,
-        "question": "Qual o seu apelido de super ser ?",
-        "options":[
-          {"id": 1, "name":"O Terrivel", "alias":"A"},
-          {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
-        ]
-      }
-    ],
-    "results":{
-      "A": "Você muito provavelmente seria um super vilão!",
-      "B": "Você muito provavelmente seria um super Herói!"
+  "title": "Que tipo de programador você é?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Qual dessas linguagens você escolheria para iniciar um novo projeto?",
+      "options": [
+        { "id": 1, "name": "JavaScript", "alias": "F" },
+        { "id": 2, "name": "Python", "alias": "D" },
+        { "id": 3, "name": "Java", "alias": "B" },
+        { "id": 4, "name": "C", "alias": "L" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "O que mais te motiva ao programar?",
+      "options": [
+        { "id": 1, "name": "Criar interfaces bonitas e responsivas", "alias": "F" },
+        { "id": 2, "name": "Resolver problemas complexos com algoritmos", "alias": "D" },
+        { "id": 3, "name": "Criar aplicações robustas e seguras", "alias": "B" },
+        { "id": 4, "name": "Otimizar cada linha de código para máxima performance", "alias": "L" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Se pudesse trabalhar em qualquer projeto, qual escolheria?",
+      "options": [
+        { "id": 1, "name": "Um site ou app interativo", "alias": "F" },
+        { "id": 2, "name": "Um sistema de IA ou análise de dados", "alias": "D" },
+        { "id": 3, "name": "Um grande sistema corporativo", "alias": "B" },
+        { "id": 4, "name": "Um sistema embarcado ou driver de hardware", "alias": "L" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Como você lida com bugs no código?",
+      "options": [
+        { "id": 1, "name": "Inspeciono o console e debugo com calma", "alias": "F" },
+        { "id": 2, "name": "Busco no Stack Overflow e adapto as respostas", "alias": "D" },
+        { "id": 3, "name": "Leio a documentação e reviso toda a arquitetura", "alias": "B" },
+        { "id": 4, "name": "Uso um debugger avançado e analiso cada bit", "alias": "L" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "O que te irrita mais em um código?",
+      "options": [
+        { "id": 1, "name": "Design ruim e falta de responsividade", "alias": "F" },
+        { "id": 2, "name": "Código desorganizado e sem indentação", "alias": "D" },
+        { "id": 3, "name": "Falta de padrões e más práticas", "alias": "B" },
+        { "id": 4, "name": "Uso excessivo de abstrações desnecessárias", "alias": "L" }
+      ]
     }
+  ],
+  "results": {
+    "F": "Você é um <strong>Desenvolvedor Frontend</strong>! Adora criar interfaces bonitas e interativas.",
+    "D": "Você é um <strong>Cientista de Dados/Desenvolvedor Backend</strong>! Seu foco está em lógica e análise de dados.",
+    "B": "Você é um <strong>Desenvolvedor Full Stack</strong>! Equilibra frontend e backend para criar sistemas completos.",
+    "L": "Você é um <strong>Programador de Baixo Nível</strong>! Gosta de trabalhar com otimização, hardware e sistemas complexos."
   }
+}
